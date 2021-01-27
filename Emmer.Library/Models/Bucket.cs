@@ -28,9 +28,12 @@
             Content = content;
 
             // de grote van de emmer is minumaal het "Capacityminumum", tenzij de waarde van "capacity" boven het "CapacityMinumum" ligt (true/false)
-            this.Capacity = (capacity > CapacityMinumum) ? capacity : CapacityMinumum;
+            if(capacity >= CapacityMinumum)
+            {
+                this.Capacity = capacity;
+            }
+            this.Capacity = CapacityMinumum;
         }
-
 
 
 
