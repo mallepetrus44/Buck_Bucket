@@ -11,11 +11,11 @@
         /// 
 
         
-        // de standaard grote van een emmer is 12 (zolang het programma draait)
-        private const int CapacityDefault = 12;
+        // de standaard grote van een emmer is 12 
+        const int CapacityDefault = 12;
 
-        // minimale inhoud voor een emmer is 10 (zolang het programma draait)
-        private const int CapacityMinumum = 10;
+        // minimale inhoud voor een emmer is 10
+        const int CapacityMinumum = 10;
   
 
         // Chaining
